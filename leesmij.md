@@ -10,7 +10,7 @@ De opzet van de website is meer statisch dan de andere sociale media waar de Gro
 
 ### Plugins
 
-Eerdere websites van de Groene Regentes gebruikten erg veel plugins om de website te laten functioneren. Nog steeds geldt Wordpress als de basis voor het content management want voor de redacteuren handig. Voor de website worden alleen strict noodzakelijke plugins gebruikt en dat zijn op dit moment de volgende:
+Eerdere websites van de Groene Regentes gebruikten erg veel plugins om de website te laten functioneren. Nog steeds geldt Wordpress als de basis voor het content management want voor de redacteuren handig. 	Voor de website worden alleen strict noodzakelijke plugins gebruikt en dat zijn op dit moment de volgende:
 * [HTML Forms](https://wordpress.org/plugins/html-forms/) voor het maken van formulieren
 * [WPBruiser](https://wordpress.org/plugins/goodbye-captcha/) ter beveiliging van zowel login als de formulieren (zonder registratie bij Google/reCaptcha of Akismet)
 * [Cache Enabler](https://nl.wordpress.org/plugins/cache-enabler/) als één van de betere (en vooral simpeler) cache plugins [getest](https://www.designbombs.com/top-wordpress-caching-plugins-compared/)
