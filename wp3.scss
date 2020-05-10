@@ -84,11 +84,11 @@ body {
 
 /* Home als template met berichten als tegels */
 #berichten {
+    padding: 0;
     margin-top: 16px;
     -moz-column-gap: 0px;
     -webkit-column-gap: 0px;
     column-gap: 0px;
-    padding: 0;
 }
 @media only screen and (min-width: 1024px) {
   #berichten {
@@ -112,24 +112,19 @@ body {
   }
 }
 .article {
+    background-color: white;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
-    border: 8px solid;
+    border: 8px solid black;
     border-radius: 16px;
     margin: 8px;
-    padding: 0;
+    padding: 16px;
     outline-width: 0;
     overflow: hidden;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
     display: inline-block;
-}
-.article {
-    border-color: $black;
-    background-color: white;
-    margin-bottom: 8px;
-    padding: 16px;
 }
 .article h1 {
     font-size: 24px;
