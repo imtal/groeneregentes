@@ -4,14 +4,11 @@
 <title><?php bloginfo( 'name' ); ?><?php wp_title(); ?></title>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<link rel="stylesheet" href="<?php bloginfo( 'template_directory' );?>/wp3.css">
-<link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/wp3-colors-flat.css">
+<link rel="stylesheet" href="<?php bloginfo( 'template_directory' );?>/wp3.css" media="screen">
 <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/include/fonts/Montserrat.css">
 <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/include/fonts/OpenSans.css">
 <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/include/fonts/FontAwesome-5.12.0.css">
-<link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/include/leaflet.css">
 <link rel="icon" href="<?php bloginfo( 'template_directory' ); ?>/images/favicon.png" sizes="32x32">
-<script src="<?php bloginfo( 'template_directory' ); ?>/include/leaflet.js" type="text/javascript"></script>
 <?php wp_head(); ?>
 </head>
 <body>
